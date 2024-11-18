@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+
+    .logo {
+        width: 5rem;
+        align-items: center;
+    }
+
+    .btn {
+        padding: 1rem;
+        font-size: medium;
+    }
+
+    nav {
+        display: flex;
+        gap: 0.5rem;
+        position: relative;
+    }
+
+    a {
+        text-decoration: none;
+        color: #181c14;
+    }
+
+    a:hover {
+        color: #c6630d;
+    }
+}

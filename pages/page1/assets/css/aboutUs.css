@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+
+    .logo {
+        width: 5rem;
+        align-items: center;
+    }
+
+    .btn {
+        padding: 1rem;
+        font-size: medium;
+    }
+
+    nav {
+        display: flex;
+        gap: 0.5rem;
+        position: relative;
+    }
+
+    a {
+        text-decoration: none;
+        color: #181c14;
+    }
+
+    a:hover {
+        color: #c6630d;
+    }
+
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
+
+.about {
+    padding: 5rem 8rem;
+    text-align: justify;
+}
+
+.about h1 {
+    padding-bottom: 1rem;
+    font-weight: bold;
+}
+
+.about p {
+    padding: 2.5rem 2rem;
+    background-color: #c6630d;
+    border-radius: 2rem;
+    font-size: 1rem;
+    color: #f0f0f0;
+    line-height: normal;
+}
+
+.goals {
+    text-align: justify;
+    padding: 5rem 8rem;
+    align-items: center;
+}
+
+.goals p {
+    padding: 2rem 0;
+    font-style: italic;
+    line-height: 1.5rem;
+}
+
+.row-two {
+    display: flex;
+    align-items: center;
+    background-color: #fef7f1;
+
+}
+
+.column-two {
+    flex: 50%;
+    padding: 0rem 5rem;
+    background-color: #fef7f1;
+
+}
+
+.quote {
+    text-align: justify;
+    font-style: italic;
+    font-size: 1.3rem;
+    background-color: #fef7f1;
+
+
+}
+
+.row-two p {
+    padding-top: 1rem;
+}
+
+.team {
+    width: 100%;
+}
+
+
+.row-three {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+
+
+.ewan {
+    padding: 4rem 5rem;
+    font-size: 2rem;
+    color: #c6630d;
+    font-weight: bolder;
+}
+
+.members h3 {
+    padding-top: 2rem 2rem;
+    font-size: x-large;
+    color: #c6630d;
+    text-align: center;
+}
+
+.members h4 {
+    font-size: medium;
+    font-style: italic;
+    text-align: center;
+}
+
+.members img {
+    align-self: center;
+}
+
+
