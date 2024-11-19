@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 0 1rem;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -62,7 +62,6 @@
     background-color: #c6630d;
     border-radius: 2rem;
     font-size: 1rem;
-    color: #f0f0f0;
     line-height: normal;
 }
 
@@ -81,23 +80,17 @@
 .row-two {
     display: flex;
     align-items: center;
-    background-color: #fef7f1;
-
 }
 
 .column-two {
     flex: 50%;
     padding: 0rem 5rem;
-    background-color: #fef7f1;
-
 }
 
 .quote {
     text-align: justify;
     font-style: italic;
     font-size: 1.3rem;
-    background-color: #fef7f1;
-
 
 }
 
@@ -142,5 +135,3 @@
 .members img {
     align-self: center;
 }
-
-
