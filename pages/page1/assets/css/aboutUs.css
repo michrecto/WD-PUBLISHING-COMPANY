@@ -21,7 +21,7 @@
 
     .btn {
         padding: 1rem;
-        
+
     }
 
     nav {
@@ -42,8 +42,8 @@
 
 .about-us {
     text-align: center;
-    padding: 5rem 10rem;
-    background-image: url('/assets/img/Artboard 1.jpg');
+    position: relative;
+    background-image: url('/assets/img/');
 }
 
 .about-us h1 {
@@ -53,10 +53,21 @@
 }
 
 .about-us p {
-    padding: 0 5rem;
+    padding: 0 10rem;
     font-size: larger;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 .row {
     display: flex;
@@ -75,7 +86,7 @@
 }
 
 .goals h2 {
-    padding-top: 5rem ;
+    padding-top: 5rem;
 }
 
 .video {
@@ -91,7 +102,7 @@
 
 .members {
     background-color: #f78888;
-} 
+}
 
 
 .row-two {
