@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +9,9 @@
     <link rel="stylesheet" href="assets/css/showCase.css">
 
 </head>
+
 <body>
-    
+
     <header class="header">
 
         <img class="logo" src="assets/img/pub company_elements.png">
@@ -33,14 +35,120 @@
         </nav>
     </header>
 
-    <div class="row">
 
+
+    <div class="row">
         <div class="column">
-            <img src="">
-            <h3>Book Title</h3>
+            <div class="card">
+                <img src="assets/img/New folder/i want to be a pilot.png" width="300rem">
+                <h4>I WANT TO BE A PILOT</h4>
+                <p>Some text</p>
+
+
+                <button onclick="openModal('modal1')">View Details</button>
+                <div id="modal1" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="closeModal('modal1')">&times;</span>
+                        <img src="assets/img/New folder/i want to be a pilot.png" width="300rem">
+                        <h2>I WANT TO BE A PILOT</h2>
+                        <p>Details about "I Want to Be a Pilot" here.</p>
+                    </div>
+                </div>
+            </div>
         </div>
 
+        <div class="column">
+            <div class="card">
+                <img src="assets/img/New folder/little big.png" width="300rem">
+                <h4>LITTLE READERS, BIG WORLDS</h4>
+                <p>Some text</p>
+
+
+                <button onclick="openModal('modal2')">View Details</button>
+                <div id="modal2" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="closeModal('modal2')">&times;</span>
+                        <h2>LITTLE READERS, BIG WORLDS</h2>
+                        <p>Details about "Little Readers, Big Worlds" here.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="assets/img/New folder/little explorer.png" width="300rem">
+                <h4>LITTLE EXPLORER</h4>
+                <p>Some text</p>
+
+                <button onclick="openModal('modal3')">View Details</button>
+                <div id="modal3" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="closeModal('modal3')">&times;</span>
+                        <h2>LITTLE EXPLORER</h2>
+                        <p>Details about "Little Explorer" here.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <img src="assets/img/New folder/magic stars.png" width="300rem">
+                <h4>MAGIC STARS</h4>
+                <p>Some text</p>
+
+                <button onclick="openModal('modal4')">View Details</button>
+                <div id="modal4" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="closeModal('modal4')">&times;</span>
+                        <h2>MAGIC STARS</h2>
+                        <p>Details about "Magic Stars" here.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="assets/img/New folder/my big adventure.png" width="300rem">
+                <h4>MY BIG ADVENTURES</h4>
+                <p>Some text</p>
+                
+                <button onclick="openModal('modal5')">View Details</button>
+                <div id="modal5" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="closeModal('modal5')">&times;</span>
+                        <h2>MY BIG ADVENTURES</h2>
+                        <p>Details about "My Big Adventures" here.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="assets/img/New folder/my first year.png" width="300rem">
+                <h4>MY FIRST YEAR</h4>
+                <p>Some text</p>
+                
+                <button onclick="openModal('modal6')">View Details</button>
+                <div id="modal6" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="closeModal('modal6')">&times;</span>
+                        <h2>MY FIRST YEAR</h2>
+                        <p>Details about "My First Year" here.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/scripts.js">
+
+    </script>
 </body>
+
 </html>

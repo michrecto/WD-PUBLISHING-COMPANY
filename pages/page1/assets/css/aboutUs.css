@@ -43,7 +43,10 @@
 .about-us {
     text-align: center;
     position: relative;
-    background-image: url('/assets/img/');
+    background-image: url('/pages/page1/assets/img/yellow icing.png');
+    background-size: contain; 
+    height: 40dvb;
+    background-color: #f78888;
 }
 
 .about-us h1 {
@@ -102,42 +105,19 @@
 
 .members {
     background-color: #f78888;
+    height: 90dvh;
 }
 
-
-.row-two {
-    display: flex;
+.column-three {
+    justify-content: space-evenly;
+    flex-direction: column;
     align-items: center;
-}
-
-.column-two {
-    flex: 50%;
-    padding: 0rem 5rem;
-}
-
-.quote {
-    text-align: justify;
-    font-style: italic;
-    font-size: 1.3rem;
-
-}
-
-.row-two p {
-    padding-top: 1rem;
-}
-
-.team {
-    width: 100%;
 }
 
 
 .row-three {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 50px;
 }
-
 
 
 .ewan {
@@ -161,6 +141,11 @@
     text-align: center;
 }
 
-.members img {
-    align-self: center;
+.members p {
+    font-size: smaller;
+    padding: 5rem 10rem;
 }
+
+
+
+

@@ -4,11 +4,13 @@
     box-sizing: border-box;
 }
 
+
+
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 5rem;
+    padding: 1rem 10rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #5da2d5;
     font-weight: bolder;
@@ -49,7 +51,6 @@
 h1 {
     color: black;
     font-size: 7rem;
-    font-family: 'Times New Roman', Times, serif;
     line-height: 85%;
     padding: 5rem 0;
 
@@ -58,7 +59,7 @@ h1 {
 .landing-row {
     display: flex;
     justify-content: space-between;
-    padding: 4rem 5rem;
+    padding: 4rem 10rem;
     background-color: #5da2d5;
     height: auto;
 
@@ -81,5 +82,5 @@ h1 {
 }
 
 .showcase p:hover {
-    font-size: small;
+    font-size: larger;
 }
