@@ -10,7 +10,8 @@
     align-items: center;
     justify-content: space-between;
     padding: 1rem 10rem;
-    background-color: #90ccf4;
+    background-color: #eddcd2;
+
 
     .logo {
         width: 5rem;
@@ -19,7 +20,7 @@
 
     .btn {
         padding: 1rem;
-        font-size: medium;
+        font-weight: bolder
     }
 
     nav {
@@ -30,11 +31,12 @@
 
     a {
         text-decoration: none;
-        color: #181c14;
+        color: #a5a58d;
     }
 
     a:hover {
-        color: #c6630d;
+        color: #b7b7a4;
+
     }
 }
 
@@ -43,19 +45,19 @@
 
 
 
-.column {
+.section-column {
     padding: 50px;
-    background-color: #5da2d5;
+    background-color: #f0efeb;
 
 }
 
 
-.row {
+.section-row {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0rem 10rem;
-    background-color: #5da2d5;
+    padding: 3rem 10rem;
+    background-color: #f0efeb;
 
 
 }
@@ -63,12 +65,14 @@
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     text-align: center;
-    background-color: #5da2d5;
+    background-color: #cb997e;
     padding: 60px;
+    border: 1px;
+    border-radius: 50px;
 }
 
 .card:hover {
-    background-color: #90ccf4;
+    background-color: #ddbea9;
 }
 
 
@@ -84,10 +88,22 @@
 }
 
 .modal-content {
-    background-color: #90ccf4;
+    background-color: #fff1e6;
     margin: 15% auto;
-    padding: 30px;
+    padding: 2rem 5rem;
     width: 40%;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+.modal p {
+    padding: 3rem;
+    text-align: justify;
+}
+
+.modal h3 {
+    font-style: italic;
+    font-size: small;
 }
 
 .close {
@@ -105,7 +121,7 @@
 
 
 button {
-    background-color: yellow;
+    background-color: #fff1e6;
     color: black;
     padding: 20px 20px;
     border: none;
@@ -116,5 +132,30 @@ button {
 }
 
 button:hover {
-    background-color: rgb(190, 190, 0);
+    font-size: 18px;
 }
+
+.section-column h4 {
+    font-size: larger;
+}
+
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+    justify-content: flex-end;
+
+}
+
+
+
+
+
+.bottom {
+    background-color: #cdcbc5;
+    text-align: center;
+    padding: 3rem;
+}
+

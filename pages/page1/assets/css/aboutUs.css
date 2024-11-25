@@ -9,10 +9,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 5rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #f78888;
-    font-weight: bolder;
+    padding: 1rem 10rem;
+    background-color: #eddcd2;
+
 
     .logo {
         width: 5rem;
@@ -21,7 +20,7 @@
 
     .btn {
         padding: 1rem;
-
+        font-weight: bolder
     }
 
     nav {
@@ -32,33 +31,29 @@
 
     a {
         text-decoration: none;
-        color: black;
+        color: #a5a58d;
     }
 
     a:hover {
-        color: #f3d250;
+        color: #b7b7a4;
+
     }
 }
 
 .about-us {
     text-align: center;
-    position: relative;
-    background-image: url('/pages/page1/assets/img/yellow icing.png');
-    background-size: contain; 
-    height: 40dvb;
+    padding: 1rem 0rem;
     background-color: #f78888;
 }
 
 .about-us h1 {
-    padding: 5rem 0rem;
-    font-family: 'Times New Roman', Times, serif;
+    padding: 1rem 0rem;
     font-size: 4rem;
 }
 
 .about-us p {
     padding: 0 10rem;
     font-size: larger;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
@@ -72,12 +67,15 @@
 
 
 
-.row {
+.row-goals {
     display: flex;
 }
 
 .goals {
+    display: 50%;
     padding: 10rem 5rem;
+
+
     background-color: #f78888;
 
 }
@@ -86,11 +84,10 @@
     font-style: italic;
     line-height: 1.5rem;
     text-align: justify;
+    padding: 2.5rem;
 }
 
-.goals h2 {
-    padding-top: 5rem;
-}
+
 
 .video {
     width: 100%;
@@ -99,53 +96,41 @@
     text-align: center;
 }
 
-
-
-
-
-.members {
-    background-color: #f78888;
-    height: 90dvh;
-}
-
-.column-three {
-    justify-content: space-evenly;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-.row-three {
+.row {
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 5rem;
+    background-color: #f78888;
 }
 
-
-.ewan {
-    padding: 1rem 1rem;
-    color: black;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 4rem;
-    text-align: center;
+.column {
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+    background-color: #f78888;
 }
 
-.members h3 {
-    padding-top: 2rem 2rem;
-    font-size: x-large;
-    color: black;
-    text-align: center;
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
 }
 
-.members h4 {
-    font-size: medium;
-    font-style: italic;
-    text-align: center;
+@media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
 }
 
-.members p {
-    font-size: smaller;
-    padding: 5rem 10rem;
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
 }
-
-
-
-

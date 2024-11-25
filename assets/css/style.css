@@ -84,3 +84,27 @@ h1 {
 .showcase p:hover {
     font-size: larger;
 }
+
+.row-footer {
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    padding: 50px
+}
+
+
+.links {
+    display: flex;
+    justify-content: center;
+
+}
+
+.links a {
+    margin: 0 30px;
+    text-decoration: none;
+
+}
+
+
+
+
