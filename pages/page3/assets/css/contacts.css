@@ -14,8 +14,7 @@ html body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: #f0efeb;
-    color: #FFF;
+    background-color: #ddbea9;
     height: 50px;
     padding: 4em;
   }

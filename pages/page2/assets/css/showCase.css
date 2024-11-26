@@ -86,6 +86,9 @@ a {
     color: #000;
 }
 
+a:hover {
+  color: #4b4b4b;
+}
 
 
 
