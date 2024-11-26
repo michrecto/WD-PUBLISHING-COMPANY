@@ -27,7 +27,7 @@
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
 ![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-PUBLISHING-COMPANY)
 
-![wakatime]
+[![wakatime](https://wakatime.com/badge/user/680f77a8-0aa9-4973-855e-6d2d44f9796d/project/0a448b15-d5d1-4158-91d4-258c7cdeb6b9.svg)](https://wakatime.com/badge/user/680f77a8-0aa9-4973-855e-6d2d44f9796d/project/0a448b15-d5d1-4158-91d4-258c7cdeb6b9)
 
 ---
 
