@@ -291,20 +291,4 @@ a {
         font-size: 0.9rem;
     }
 
-    .landing-column img {
-        width: 80%;
-        height: auto;
-        margin-top: 1rem;
-    }
-
-    .row-goals .goals video {
-        width: 100%;
-        max-width: 500px;
-        margin: 1rem auto;
-    }
-
-    .footer img {
-        width: 50px;
-        height: auto;
-    }
-}
+    
