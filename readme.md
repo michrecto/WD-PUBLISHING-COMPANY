@@ -60,6 +60,17 @@
 
 ---
 
+### Key Components
+<!-- TODO: List of Key Components -->
+<!-- The following are just sample -->
+- MultiPage Website/Single Page Website
+- Call to Action
+- Modal
+- Navigation Bar
+- Video
+
+---
+
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
