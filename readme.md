@@ -116,4 +116,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| W3School | For tags reference | (https://www.w3schools.com/tags/) |
